@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#70fa57, #43803f);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.intern {
+    margin-top: 20px;
+    width: 180px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-left: 1.7px solid black;
+    border-right: 1.7px solid black;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px 0px;
+    user-select: none;
+}
+
+.loop {
+    margin-left: 13px;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-bottom: 10px solid #5bfa4f;
+    animation: loop 1s infinite linear;
+} 
+
+@keyframes loop {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    width: 260px;
+    height: 420px;
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+input::placeholder {
+    color: #08490b;
+}
+
+#login {
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+#senha, #login {
+    padding: 7px;
+    width: 190px;
+    outline: none;
+    border: double 2.3px transparent;
+    border-radius: 20px;
+    border-image: linear-gradient(#54ff54, #00b31e)1;
+    position: relative;
+    font-size: 15px;
+    color: #000000;
+}
+
+
+
+button {
+    margin-top: 15px;
+    background: #5bfa4f;
+    border-bottom: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+span {
+    margin-top: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.box2 {
+    margin-top: 11px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.enter1 {
+    font-size: 16px;
+    background-color: rgb(34, 85, 255);
+    padding:2px 12px;
+    border-radius: 16px;
+    margin-bottom: 7px;
+}
+
+.enter2 {
+    font-size: 16px;
+    background-color: rgb(34, 85, 255);
+    padding:2px 12px;
+    border-radius: 16px;
+    
+}
+
+.enter3 {
+    font-size: 16px;
+    background-color: rgb(224, 1, 12);
+    padding:2px 12px;
+    border-radius: 16px;
+    margin-bottom: 7px;
+}
